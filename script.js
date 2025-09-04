@@ -164,7 +164,7 @@ function typeWriter(element, text, speed = 100) {
 function initSoftwareEngineerAnimation() {
     const typingText = document.querySelector('.typing-text');
     if (typingText) {
-        const text = 'Software Engineer';
+        const text = 'Software Engineer    ';
         let currentIndex = 0;
         let isDeleting = false;
         
@@ -185,11 +185,11 @@ function initSoftwareEngineerAnimation() {
                     isDeleting = false;
                     setTimeout(() => {
                         // Start typing next word
-                        typingText.textContent = 'Full Stack Developer';
+                        typingText.textContent = 'Full Stack Developer   ';
                         setTimeout(() => {
-                            typingText.textContent = 'System Architect';
+                            typingText.textContent = 'System Architect    ';
                             setTimeout(() => {
-                                typingText.textContent = 'Software Engineer';
+                                typingText.textContent = 'Software Engineer    ';
                             }, 2000);
                         }, 2000);
                     }, 1000);
@@ -548,4 +548,5 @@ document.addEventListener('DOMContentLoaded', () => {
     
     // Initialize achievement showcase
     initAchievementShowcase();
+
 }); 
