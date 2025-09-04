@@ -16,6 +16,44 @@ body {
     background: #0a0a0a;
     overflow-x: hidden;
 }
+.certification-link {
+    margin-top: 10px;
+}
+
+.verify-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white !important;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 10px rgba(102, 126, 234, 0.3);
+}
+
+.verify-link:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 20px rgba(102, 126, 234, 0.4);
+    text-decoration: none;
+    color: white !important;
+}
+
+.verify-link:visited {
+    color: white !important;
+}
+
+.verify-link:active {
+    color: white !important;
+}
+
+.verify-link i {
+    font-size: 1rem;
+    color: white !important;
+}
 
 /* Professional Background */
 .background-animation {
@@ -1427,4 +1465,5 @@ section {
 
 ::-webkit-scrollbar-thumb:hover {
     background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+
 } 
